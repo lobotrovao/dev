@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cortex.Mediator.Behaviors.FluentValidation" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.4" />
+    <PackageReference Include="Asp.Versioning.Http" Version="8.1.1" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="10.3.0" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="10.3.0" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.3.9" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.13.3" />
+    <PackageReference Include="Scrutor" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wex.PurchaseTransaction.Application\Wex.PurchaseTransaction.Application.csproj" />
+    <ProjectReference Include="..\Wex.PurchaseTransaction.Infrastructure\Wex.PurchaseTransaction.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

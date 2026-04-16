@@ -1,0 +1,69 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.rsuser
+*.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IIS Express
+/.vs/*/applicationhost.config
+
+# Azure Functions
+.local.settings.json
+
+# NuGet
+*.nupkg
+packages/
+.nuget/packages/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
+# JetBrains
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Secret storage
+secrets.json
+
+# dotnet
+project.lock.json
+
+# Visual Studio Code
+.vscode/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage
+coverage.opencover.xml
+coverage/*
+
+# end

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Wex.PurchaseTransaction.Api/Wex.PurchaseTransaction.Api.csproj" />
+  <Project Path="Wex.PurchaseTransaction.Application/Wex.PurchaseTransaction.Application.csproj" />
+  <Project Path="Wex.PurchaseTransaction.Domain/Wex.PurchaseTransaction.Domain.csproj" />
+  <Project Path="Wex.PurchaseTransaction.Infrastructure/Wex.PurchaseTransaction.Infrastructure.csproj" />
+  <Project Path="Wex.PurchaseTransaction.Tests/Wex.PurchaseTransaction.Tests.csproj" Id="e98db839-fb3f-4ad2-afce-380ee2b62137" />
+</Solution>
