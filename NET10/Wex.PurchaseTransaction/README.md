@@ -2,6 +2,13 @@ Wex.PurchaseTransaction API
 
 This document describes the HTTP API endpoints exposed by the Wex.PurchaseTransaction sample solution.
 
+## 🧩 What Still Needs to Be Added
+### 🔐 Authentication
+### 🛂 Authorization
+### 🌐 CORS Configuration
+
+
+
 Base path
 - All endpoints are under: /api/purchases
 
